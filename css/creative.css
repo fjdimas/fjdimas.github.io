@@ -22,7 +22,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #148DAE;
 }
 h1,
 h2,
@@ -65,15 +65,16 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #148DAE;
+  color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: ##148DAE;
 }
+
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
@@ -130,7 +131,7 @@ aside {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: ##148DAE;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
