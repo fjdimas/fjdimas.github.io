@@ -7,18 +7,10 @@
   font-color: rgb(3, 93, 132);
 }
 
-.container{
-  border-style: solid;
-  width: 100%;
-  display: inline-block;
-  box-sizing: border-box;
-  background: rgb(214, 214, 214);
-  
-}
+
 #social-links {
-  display: flex;
   flex-direction: row;
-  align-item: center;
+  align-items: center;
   justify-content: flex-end,space around;
 }
 
