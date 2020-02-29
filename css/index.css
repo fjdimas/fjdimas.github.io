@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Cabin', 'Helvetica';
-  color: rgb(3, 93, 132);
+  color: black;
 }
 .brand{
 	font-size: 20px;
@@ -13,21 +13,23 @@
 }
 
 #social-links {
-  flex-direction: row;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-end,space around;
+  
 }
 
 header, nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   border-radius: 5%;
-  border-style: solid; /*remove solid bar attribute*/
+  height: auto;
+  
+}
+header{
   box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
     7px 7px 20px 0 rgba(0, 0, 0, 0.3);
-  height: 50px;
-  
 }
 .btn {
   position: relative;
@@ -63,7 +65,7 @@ header, nav {
 
 .btn i {
   position: absolute;
-  color: rgb(73, 192, 192);
+  color: rgb(3, 93, 132);
   font-size: 35px;
   top: 50%;
   left: 50%;
