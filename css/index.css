@@ -18,7 +18,7 @@
   align-items: center;
   
 }
-#nav-links, button,li{
+#nav-links button li{
   padding: 5px;
   border-radius: 25%;
   list-style-type: none;
@@ -33,7 +33,7 @@
     7px 7px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
-header, nav {
+header nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
