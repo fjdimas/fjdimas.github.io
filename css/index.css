@@ -27,9 +27,9 @@ header, nav {
 }
 .btn {
   position: relative;
-  height: 70px;
-  width: 70px;
-  margin: 20px;
+  height: 35px;
+  width: 35px;
+  margin: 10px;
   background: rgb(214, 214, 214);
   border-radius: 50%;
   box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
