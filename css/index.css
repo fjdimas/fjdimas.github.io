@@ -33,6 +33,10 @@
     7px 7px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
+.about{
+	text-align: center;
+
+}
 header nav {
   display: flex;
   justify-content: flex-start;
