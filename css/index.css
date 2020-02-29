@@ -33,8 +33,9 @@
     7px 7px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
-.about{
+.about .main-line{
 	text-align: center;
+	font-weight: bold;
 
 }
 header nav {
