@@ -6,7 +6,11 @@
   font-family: 'Cabin', 'Helvetica';
   color: rgb(3, 93, 132);
 }
-
+.brand{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
 
 #social-links {
   flex-direction: row;
@@ -27,12 +31,46 @@ header, nav {
 }
 .btn {
   position: relative;
-  height: 35px;
-  width: 35px;
-  margin: 10px;
+  height: 70px;
+  width: 70px;
+  margin: 20px;
   background: rgb(214, 214, 214);
   border-radius: 50%;
   box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
     7px 7px 20px 0 rgba(0, 0, 0, 0.3);
   transition: 0.2s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  background: rgb(214, 214, 214);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn:hover::before {
+  box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 1),
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn i {
+  position: absolute;
+  color: rgb(73, 192, 192);
+  font-size: 35px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+}
+
+.btn:hover i {
+  font-size: 30px;
 }
