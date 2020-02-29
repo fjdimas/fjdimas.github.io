@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-color: #236383;
+  font-family: 'Cabin', 'Helvetica';
+  font-color: rgb(3, 93, 132);
 }
 
 .container{
@@ -16,7 +17,7 @@
 }
 #social-links {
   display: flex;
-  felx-direction: row;
+  flex-direction: row;
   align-item: center;
   justify-content: flex-end,space around;
 }
