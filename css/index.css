@@ -111,8 +111,34 @@ header{
 	box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 1),
     inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
 }
+.head-img .main-line{
+	position: abosolute;
+	z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    width: 100%;
+    height: 26px;
+    padding: 0;
+    margin: 0;
+    margin-top: -13px; /* 1/2 height */
+    text-align: center;
 
+}
+.head-img img{
+	z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
 img {
+	position: relative;
 	width: 100%;
 	height: 100%;
 	border-radius: 45px;
