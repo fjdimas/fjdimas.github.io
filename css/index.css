@@ -36,8 +36,14 @@
 .about .main-line{
 	text-align: center;
 	font-weight: bold;
+	display: block;
 
 }
+
+.main-content{
+	display: block;
+}
+
 header nav {
   display: flex;
   justify-content: flex-start;
