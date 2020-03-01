@@ -106,7 +106,7 @@ header{
 .btn:hover i {
   font-size: 30px;
 }
-.header-img{
+.head-img{
 	border-radius:45px;
 	box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 1),
     inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
