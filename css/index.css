@@ -34,9 +34,10 @@
 }
 
 .about .main-line{
+	display: flex;
+	justify-content:center;
 	text-align: center;
 	font-weight: bold;
-	display: block;
 
 }
 
