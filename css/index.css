@@ -106,3 +106,7 @@ header{
 .btn:hover i {
   font-size: 30px;
 }
+
+img {
+	object-fit: scale-down;
+}
