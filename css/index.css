@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Cabin', 'Helvetica';
+  font-family: 'Josefin Sans','Cabin', 'Helvetica';
   color: black;
 }
 .brand{
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: bold;
 	text-decoration: none;
 }
