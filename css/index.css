@@ -107,8 +107,12 @@ header{
   font-size: 30px;
 }
 .head-img{
-	width: 100%;
-	height: 20%;
+	background-color: transparent;
+	border-radius:45px;
+	box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 1),
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.about{
 	border-radius:45px;
 	box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 1),
     inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
@@ -117,7 +121,7 @@ header{
 img {
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: 60%;
 	border-radius: 45px;
 	box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 1),
     inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
