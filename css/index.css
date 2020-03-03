@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans','Cabin', 'Helvetica';
+  font-family: Josefin Sans,Cabin, Helvetica;
   color: black;
 }
 .brand{
@@ -42,7 +42,8 @@
 }
 
 .main-content{
-	display: block;
+	display: flex;
+	flex-direction: column;
 }
 
 header nav {
